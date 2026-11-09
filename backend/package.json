@@ -1,0 +1,14 @@
+{
+  "name": "mi-lonari-calendar-backend-extract",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "calendar:import": "node scripts/import-calendar-data.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "4.22.3",
+    "mongoose": "7.8.11"
+  }
+}
+
